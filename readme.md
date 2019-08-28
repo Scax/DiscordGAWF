@@ -4,15 +4,11 @@ Discord Game Activity for Wine and Firejail
 
 This is a little tool inspired by [DiscordComp](https://github.com/null-von-sushi/Discordcomp).
 
-If you are running some games or programs via wine they wont discord wont let you choose these processes for game activity
+If you are running some games or programs via wine discord wont let you choose these processes for game activity
 
 This program looks for .exe process and creates a .dummy file and process you can select in discord
 
-If you run discord in Firejail you this programm will start the dummies inside the discord firejail
-
-
-## Note
-If your system gets compromised this tool could be be used to further exploit you.
+If you run discord in Firejail you this programm can start the dummies inside the discord firejail
 
 ## How to use
 
@@ -41,6 +37,8 @@ Usage of ./DicordGAWF:
   -wait int
         duration in seconds between scans for .exe processes (default 60)
 ```
+## Note
+If your system gets compromised this tool could be be used to further exploit you.
 
 ## TODO
 
