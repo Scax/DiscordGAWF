@@ -20,7 +20,7 @@ Download the files from releases or build them yourself
 
 ### If you use just wine
 
-Copy the files to any directory and run the controller.
+Copy the files `DiscordGAWF` and `dummy` to any directory and run the `DiscordGAWF`.
 This will create a .dummy file for every .exe process running
 
 ### If you use firejail
